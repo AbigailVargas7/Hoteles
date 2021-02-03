@@ -1,0 +1,29 @@
+
+.label{
+    -fx-text-fill: green;
+    -fx-font-family: "Britannic Bold";
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: green;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-padding: 18px;
+    -fx-text-align: center;
+    -fx-font-size: 15px;
+}
+
+.check-box{
+    -fx-text-fill: green;
+    -fx-font-family: "Britannic Bold";
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+.root{
+    -fx-background-color: green;
+    -fx-background-size: 900 800;
+}

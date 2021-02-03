@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #D43100;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.espol.sistemahotel.RecepcionController">
+   <center>
+      <FlowPane fx:id="panHabitaciones" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #EDD9D3;" BorderPane.alignment="CENTER" />
+   </center>
+   <top>
+      <Label text="RECEPCION" textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Britannic Bold" size="33.0" />
+         </font>
+      </Label>
+   </top>
+   <bottom>
+      <Label fx:id="regresar" alignment="CENTER" onMouseClicked="#regresar" prefHeight="19.0" prefWidth="114.0" style="-fx-border-color: #542719;" text="REGRESAR" textAlignment="CENTER" textFill="WHITE" underline="true" BorderPane.alignment="CENTER" />
+   </bottom>
+   <left>
+      <VBox fx:id="filtros" prefHeight="331.0" prefWidth="97.0" spacing="25.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="20.0" prefWidth="98.0" text="Tipos" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="17.0" />
+               </font>
+            </Label>
+         </children></VBox>
+   </left>
+   <right>
+      <VBox prefHeight="347.0" prefWidth="13.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>
